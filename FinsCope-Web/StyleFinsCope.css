@@ -1,0 +1,80 @@
+/* ----------- Estilos generales ----------- */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #0a3d62;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header img {
+  max-width: 100px;
+  height: auto;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #00d2d3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #10ac84;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #222f3e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* ----------- Responsive Design ----------- */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .boton {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  header {
+    padding: 1rem 0.5rem;
+  }
+}
